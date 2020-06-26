@@ -1,0 +1,26 @@
+h1{color:rgb(97, 218, 251)}
+
+* {
+ background: black;
+
+}
+p,h2,h3,h1{
+    text-align: center;
+    color: rgb(97, 218, 251);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
+.grid {
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+.header {
+    background-color: black;
+}

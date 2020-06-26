@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title> REACT JS </title>
+     <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+      <h1> REACT JS </h1> 
+      <div class="about">
+       <p>
+        <h1>Black Lives Matter. Support the Equal Justice Initiative.</h1>
+        <h2>React v16.13.0</h2>
+        <p><big>
+            February 26, 2020 by Sunil Pai
+        Today we are releasing React 16.13.0. It contains bugfixes and new deprecation warnings to help prepare for a future major release.
+        
+        New Warnings
+        Warnings for some updates during render
+        A React component should not cause side effects in other components during rendering.
+        
+        It is supported to call setState during render, but only for the same component. If you call setState during a render on a different component, you will now see a warning:
+        
+        Warning: Cannot update a component from inside the function body of a different component.
+        This warning will help you find application bugs caused by unintentional state changes. In the rare case that you intentionally want to change the state of another component as a result of rendering, you can wrap the setState call into useEffect.
+        
+        Warnings for conflicting style rules
+        When dynamically applying a style that contains longhand and shorthand versions of CSS properties, particular combinations of updates can cause inconsistent styling. For example:
+        </big></p>
+       </p>
+        </div>
+    </body>
+</html>
